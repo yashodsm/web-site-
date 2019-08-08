@@ -1,0 +1,242 @@
+/*#################################START###############################*/
+/* Page Preloader start */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
+/* Page Preloader End */
+
+/*#################################END###############################*/
+
+
+
+/*////Scrolling part-Start/////*/
+#section1.main1{
+  height: 0.1px;
+  background-color: transparent;
+}
+
+#section2.main1 {
+  height: 0.1px;
+  background-color: transparent;
+}
+
+#section3.main1{
+  height: 0.1px;
+  background-color: transparent;
+}
+
+#section4.main1{
+  height: 0.1px;
+  background-color: transparent;
+}
+
+#section5.main1 {
+  height: 0.1px;
+  background-color: transparent;
+}
+
+#section6.main1{
+  height: 0.1px;
+  background-color: transparent;
+}
+
+
+
+/*///Scrolling part-End/////*/
+
+
+
+
+
+
+
+/* Syde by side images START */ 
+.row2 {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 10px;
+
+
+  background-image: url(Trainbridge.jpg);
+  background-size: cover;
+
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 65px;
+}
+
+
+#img1:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+#img2:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+#img3:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+
+}
+/* Syde by side images END */ 
+
+
+
+
+
+
+
+
+
+
+/* Syde by side Video loop START */
+
+.row1 {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 4px;
+
+
+  background-image: url(Trainbridge.jpg);
+  background-size: cover;
+ 
+
+}
+
+
+
+.column1 {
+  flex: 33.33%;
+  padding: 16px;
+  align-content: center;
+}
+
+#v1:hover {
+  transition: transform .2s; /* Animation */
+  transform: scale(1.1);
+}
+
+#v2:hover {
+  transition: transform .2s; /* Animation */
+  transform: scale(1.1);
+}
+
+#v3:hover {
+  transition: transform .2s; /* Animation */
+  transform: scale(1.1);
+}
+
+
+/* ##### */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: transparent;
+  margin: auto;
+  /*padding: 0px;*/
+
+  border: 0px solid #888;
+  width: 80%;
+  /*align-content: ;*/
+}
+
+.cent{
+  margin: 0 auto ;
+  width: 95%;
+  padding: 5px;
+  height: 40%;
+  background-color: transparent;
+}
+
+.myBtn{
+  height:120px; 
+  width:120px; 
+  background-color: transparent;
+}
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* Syde by side Video loop END */

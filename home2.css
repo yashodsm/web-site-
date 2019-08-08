@@ -1,0 +1,310 @@
+/* Syde by side images START */ 
+
+.row {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 20px;
+
+
+  background-image: url(Trainbridge.jpg);
+  background-size: cover;
+
+}
+
+.column {
+  flex: 33.33%;
+  padding: 65px;
+}
+
+
+#img1:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+#img2:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+#img3:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+
+}
+/* Syde by side images END */ 
+
+/*flex bow START */
+
+.all {
+  display: flex;
+  height: auto;
+}
+.left, .middle, .right {
+  min-width: 0;
+}
+.right {
+  flex:  25%;
+  background-color: white;
+  min-height: 1260px;
+  background-color: #027093;
+}
+.middle {
+  flex: 50%;
+  max-height: 1260px;
+  
+}
+.left {
+  flex: 25%;
+  background-color: white;
+  min-height: 1300px;
+  background-color: #027093;
+  
+}
+.left h3{
+  text-align: center; 
+}
+
+.left p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: justify;
+  padding: 10px;
+}
+
+.right h3{
+  text-align: center; 
+}
+
+.right p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: justify;
+  padding: 10px;
+}
+
+
+
+/*flex box END */
+
+
+/*#####*/
+
+/*flex bow START */
+
+.all1 {
+  display: flex;
+  height: auto;
+}
+.left1, .middle1, .right1 {
+  min-width: 0;
+}
+.right1 {
+  flex: 0 30%;
+  background-color: white;
+}
+.middle1 {
+  flex: 30%;
+  
+}
+.left1 {
+  flex: 0 30%;
+  background-color: white;
+  
+}
+.left1 h3{
+  text-align: center; 
+}
+
+.left1 p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: justify;
+  padding: 10px;
+}
+
+.right1 h3{
+  text-align: center; 
+}
+
+.right1 p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: justify;
+  padding: 10px;
+}
+
+
+
+/*flex box END */
+
+/*######*/
+
+
+/* image location button Start */
+.map {
+  position: relative;
+  width: 100%;
+  max-width: auto;
+}
+
+.map img {
+  width: 100%;
+  
+}
+
+.map .loc1 {
+  position: absolute;
+  top: 56%;
+  left: 45%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  transition: transform .2s; /* Animation */
+
+
+}
+.map .loc1:hover {
+  transform: scale(1.5);
+}
+
+
+/* btn 2  Start*/
+.map .loc2 {
+  position: absolute;
+  top: -1%;
+  left: 19%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  transition: transform .2s; /* Animation */
+}
+
+.map .loc2:hover {
+  transform: scale(1.5);
+}
+/* Btn 3 START*/
+.map .loc3{
+position: absolute;
+  top: 28%;
+  left: 58%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  transition: transform .2s; /* Animation */
+
+}
+
+
+.map .loc3:hover {
+  transform: scale(1.5);
+}
+/* btn 3 END */
+/* btn 4 START */
+.map .loc4{
+position: absolute;
+  top: 36%;
+  left: 38%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  transition: transform .2s; /* Animation */
+
+}
+
+
+.map .loc4:hover {
+  transform: scale(1.5);
+}
+
+/* btn 4 END */
+
+/* btn 5 START */
+.map .loc5{
+position: absolute;
+  top: 88%;
+  left: 25%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  transition: transform .2s; /* Animation */
+
+}
+
+
+.map .loc5:hover {
+  transform: scale(1.5);
+}
+
+
+/*btn 5 END */
+
+/* btn 6 START */
+.map .loc6{
+position: absolute;
+  top: 61%;
+  left: 17%;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  transition: transform .2s; /* Animation */
+
+}
+
+
+.map .loc6:hover {
+  transform: scale(1.5);
+}
+
+
+/*btn 6 END */
+
+
+/* image location button end */
